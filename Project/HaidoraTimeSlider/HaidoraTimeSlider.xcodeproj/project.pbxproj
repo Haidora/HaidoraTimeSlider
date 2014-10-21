@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA07BB719F53BB2004AB5E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA07BB619F53BB2004AB5E2 /* main.m */; };
+		ABA07BBA19F53BB2004AB5E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA07BB919F53BB2004AB5E2 /* AppDelegate.m */; };
+		ABA07BBD19F53BB2004AB5E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA07BBC19F53BB2004AB5E2 /* ViewController.m */; };
+		ABA07BC019F53BB2004AB5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA07BBE19F53BB2004AB5E2 /* Main.storyboard */; };
+		ABA07BC219F53BB2004AB5E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA07BC119F53BB2004AB5E2 /* Images.xcassets */; };
+		ABA07BC519F53BB2004AB5E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA07BC319F53BB2004AB5E2 /* LaunchScreen.xib */; };
+		ABA07BD119F53BB2004AB5E2 /* HaidoraTimeSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA07BD019F53BB2004AB5E2 /* HaidoraTimeSliderTests.m */; };
+		ABA07BDE19F53BDD004AB5E2 /* HDTimeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA07BDD19F53BDD004AB5E2 /* HDTimeSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA07BCB19F53BB2004AB5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA07BA919F53BB2004AB5E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA07BB019F53BB2004AB5E2;
+			remoteInfo = HaidoraTimeSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA07BB119F53BB2004AB5E2 /* HaidoraTimeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaidoraTimeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA07BB519F53BB2004AB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA07BB619F53BB2004AB5E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA07BB819F53BB2004AB5E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABA07BB919F53BB2004AB5E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABA07BBB19F53BB2004AB5E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABA07BBC19F53BB2004AB5E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABA07BBF19F53BB2004AB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA07BC119F53BB2004AB5E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABA07BC419F53BB2004AB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABA07BCA19F53BB2004AB5E2 /* HaidoraTimeSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraTimeSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA07BCF19F53BB2004AB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA07BD019F53BB2004AB5E2 /* HaidoraTimeSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaidoraTimeSliderTests.m; sourceTree = "<group>"; };
+		ABA07BDC19F53BDD004AB5E2 /* HDTimeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTimeSlider.h; sourceTree = "<group>"; };
+		ABA07BDD19F53BDD004AB5E2 /* HDTimeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTimeSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA07BAE19F53BB2004AB5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA07BC719F53BB2004AB5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA07BA819F53BB2004AB5E2 = {
+			isa = PBXGroup;
+			children = (
+				ABA07BDA19F53BC6004AB5E2 /* Resource */,
+				ABA07BDB19F53BC6004AB5E2 /* Source */,
+				ABA07BB319F53BB2004AB5E2 /* HaidoraTimeSlider */,
+				ABA07BCD19F53BB2004AB5E2 /* HaidoraTimeSliderTests */,
+				ABA07BB219F53BB2004AB5E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA07BB219F53BB2004AB5E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA07BB119F53BB2004AB5E2 /* HaidoraTimeSlider.app */,
+				ABA07BCA19F53BB2004AB5E2 /* HaidoraTimeSliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA07BB319F53BB2004AB5E2 /* HaidoraTimeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				ABA07BB819F53BB2004AB5E2 /* AppDelegate.h */,
+				ABA07BB919F53BB2004AB5E2 /* AppDelegate.m */,
+				ABA07BBB19F53BB2004AB5E2 /* ViewController.h */,
+				ABA07BBC19F53BB2004AB5E2 /* ViewController.m */,
+				ABA07BBE19F53BB2004AB5E2 /* Main.storyboard */,
+				ABA07BC119F53BB2004AB5E2 /* Images.xcassets */,
+				ABA07BC319F53BB2004AB5E2 /* LaunchScreen.xib */,
+				ABA07BB419F53BB2004AB5E2 /* Supporting Files */,
+			);
+			path = HaidoraTimeSlider;
+			sourceTree = "<group>";
+		};
+		ABA07BB419F53BB2004AB5E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA07BB519F53BB2004AB5E2 /* Info.plist */,
+				ABA07BB619F53BB2004AB5E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA07BCD19F53BB2004AB5E2 /* HaidoraTimeSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA07BD019F53BB2004AB5E2 /* HaidoraTimeSliderTests.m */,
+				ABA07BCE19F53BB2004AB5E2 /* Supporting Files */,
+			);
+			path = HaidoraTimeSliderTests;
+			sourceTree = "<group>";
+		};
+		ABA07BCE19F53BB2004AB5E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA07BCF19F53BB2004AB5E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA07BDA19F53BC6004AB5E2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = ../../Resource;
+			sourceTree = "<group>";
+		};
+		ABA07BDB19F53BC6004AB5E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ABA07BDC19F53BDD004AB5E2 /* HDTimeSlider.h */,
+				ABA07BDD19F53BDD004AB5E2 /* HDTimeSlider.m */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA07BB019F53BB2004AB5E2 /* HaidoraTimeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA07BD419F53BB2004AB5E2 /* Build configuration list for PBXNativeTarget "HaidoraTimeSlider" */;
+			buildPhases = (
+				ABA07BAD19F53BB2004AB5E2 /* Sources */,
+				ABA07BAE19F53BB2004AB5E2 /* Frameworks */,
+				ABA07BAF19F53BB2004AB5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaidoraTimeSlider;
+			productName = HaidoraTimeSlider;
+			productReference = ABA07BB119F53BB2004AB5E2 /* HaidoraTimeSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA07BC919F53BB2004AB5E2 /* HaidoraTimeSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA07BD719F53BB2004AB5E2 /* Build configuration list for PBXNativeTarget "HaidoraTimeSliderTests" */;
+			buildPhases = (
+				ABA07BC619F53BB2004AB5E2 /* Sources */,
+				ABA07BC719F53BB2004AB5E2 /* Frameworks */,
+				ABA07BC819F53BB2004AB5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA07BCC19F53BB2004AB5E2 /* PBXTargetDependency */,
+			);
+			name = HaidoraTimeSliderTests;
+			productName = HaidoraTimeSliderTests;
+			productReference = ABA07BCA19F53BB2004AB5E2 /* HaidoraTimeSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA07BA919F53BB2004AB5E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Haidora;
+				TargetAttributes = {
+					ABA07BB019F53BB2004AB5E2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					ABA07BC919F53BB2004AB5E2 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = ABA07BB019F53BB2004AB5E2;
+					};
+				};
+			};
+			buildConfigurationList = ABA07BAC19F53BB2004AB5E2 /* Build configuration list for PBXProject "HaidoraTimeSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA07BA819F53BB2004AB5E2;
+			productRefGroup = ABA07BB219F53BB2004AB5E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA07BB019F53BB2004AB5E2 /* HaidoraTimeSlider */,
+				ABA07BC919F53BB2004AB5E2 /* HaidoraTimeSliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA07BAF19F53BB2004AB5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA07BC019F53BB2004AB5E2 /* Main.storyboard in Resources */,
+				ABA07BC519F53BB2004AB5E2 /* LaunchScreen.xib in Resources */,
+				ABA07BC219F53BB2004AB5E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA07BC819F53BB2004AB5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA07BAD19F53BB2004AB5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA07BBD19F53BB2004AB5E2 /* ViewController.m in Sources */,
+				ABA07BBA19F53BB2004AB5E2 /* AppDelegate.m in Sources */,
+				ABA07BB719F53BB2004AB5E2 /* main.m in Sources */,
+				ABA07BDE19F53BDD004AB5E2 /* HDTimeSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA07BC619F53BB2004AB5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA07BD119F53BB2004AB5E2 /* HaidoraTimeSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA07BCC19F53BB2004AB5E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA07BB019F53BB2004AB5E2 /* HaidoraTimeSlider */;
+			targetProxy = ABA07BCB19F53BB2004AB5E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA07BBE19F53BB2004AB5E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA07BBF19F53BB2004AB5E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA07BC319F53BB2004AB5E2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA07BC419F53BB2004AB5E2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA07BD219F53BB2004AB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA07BD319F53BB2004AB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA07BD519F53BB2004AB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaidoraTimeSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABA07BD619F53BB2004AB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaidoraTimeSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABA07BD819F53BB2004AB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaidoraTimeSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaidoraTimeSlider.app/HaidoraTimeSlider";
+			};
+			name = Debug;
+		};
+		ABA07BD919F53BB2004AB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaidoraTimeSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaidoraTimeSlider.app/HaidoraTimeSlider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA07BAC19F53BB2004AB5E2 /* Build configuration list for PBXProject "HaidoraTimeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA07BD219F53BB2004AB5E2 /* Debug */,
+				ABA07BD319F53BB2004AB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA07BD419F53BB2004AB5E2 /* Build configuration list for PBXNativeTarget "HaidoraTimeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA07BD519F53BB2004AB5E2 /* Debug */,
+				ABA07BD619F53BB2004AB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA07BD719F53BB2004AB5E2 /* Build configuration list for PBXNativeTarget "HaidoraTimeSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA07BD819F53BB2004AB5E2 /* Debug */,
+				ABA07BD919F53BB2004AB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA07BA919F53BB2004AB5E2 /* Project object */;
+}
