@@ -72,8 +72,6 @@
 - (void)commonInit
 {
     _buttonState = NO;
-
-    self.titleLabel.font = [UIFont systemFontOfSize:7];
 }
 
 #pragma mark
@@ -175,6 +173,8 @@
     _highlightedColor = [UIColor colorWithRed:0.094 green:0.643 blue:0.290 alpha:1];
     _borderColor = [UIColor whiteColor];
     _borderWidth = 2;
+    _fontSize = 9;
+    _font = [UIFont systemFontOfSize:_fontSize];
 
     _sepViews = [NSMutableArray array];
     _buttonViews = [NSMutableArray array];
@@ -183,6 +183,9 @@
     self.layer.shadowOffset = CGSizeMake(1, 1);
     self.layer.shadowOpacity = 0.5;
     self.layer.shadowRadius = 2;
+    // TODO: Test
+    _items = @[ @"1km", @"2km", @"3km" ];
+    [self updateItems];
 }
 
 #pragma mark
@@ -222,6 +225,7 @@
         button.highlightedColor = weakSelf.highlightedColor;
         button.borderWidth = weakSelf.borderWidth;
         button.borderColor = weakSelf.borderColor;
+        button.titleLabel.font = weakSelf.font;
         if (idx <= weakSelf.currentIndex)
         {
             [button setButtonState:YES];
@@ -257,6 +261,8 @@
 - (void)updateItems
 {
     [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    [_sepViews removeAllObjects];
+    [_buttonViews removeAllObjects];
 
     NSInteger count = _items.count;
     for (int i = 0; i < count; i++)
@@ -297,6 +303,12 @@
 {
     _currentIndex = MIN(MAX(0, currentIndex), _items.count);
     [self setNeedsLayout];
+}
+
+-(void)setFontSize:(NSInteger)fontSize
+{
+	_fontSize = fontSize;
+	_font = [UIFont systemFontOfSize:_fontSize];
 }
 
 #pragma mark
